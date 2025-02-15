@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GokzBlogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Assets/DOT.png" type="image/x-icon">
+</head>
+
+<body style="background-color: whitesmoke;">
+    <a href="index.html">
+        <h1 id="intro" style="background-color: whitesmoke;"><span
+                style="font-family: Sedgwick Ave Display, cursive; color: #5db1ea; font-size:40px;">Gokz</span>BLOGS</h1>
+    </a>
+    <br>
+    <div id="blog">
+        <h1 style="text-align: center;"><u>Microprocessors</u></h1>
+        <h6>5 Mins read <span style="float: right;">19/06/2024</span> </h6>
+        <hr>
+        <h2 id="blogtopic">Table of content</h2>
+        <div class="content">
+            <h5>
+                <a href="#Introduction" style="color: #5db1ea;">Introduction</a> <br>
+                <a href="#Block" style="color: #5db1ea;">Block Diagram</a> <br>
+                <a href="#classification" style="color: #5db1ea;"> Classification</a> <br>
+                <a href="#types" style="color: #5db1ea;">Generation of processors</a> <br>
+                <a href="#Application" style="color: #5db1ea;">Application</a> <br>
+                <a href="#real" style="color: #5db1ea;">Real Life Application</a> <br>
+                <a href="#Refrences" style="color: #5db1ea;">Refrences</a>
+            </h5> <br>
+        </div>
+        <h2 id="Introduction">Introduction</h2>
+        <div class="content">
+            <p>The microprocessor, also called the Central Processing Unit (CPU), powers computers and other electronic
+                devices. Microprocessors are the "hearts" of data centres, supercomputers, communications products, and
+                other digital devices.
+                <br> It is a programmable device that takes in input performs some arithmetic and logical operations
+                over it and produces the desired output. <br>
+                Microprocessor consists of an ALU, register array, and a control unit. ALU performs arithmetical and
+                logical operations on the data received from the memory or an input device.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="Block">Block Diagram</h2>
+        <div class="content">
+            <img src="Assets/Microprocessor block.png" alt="" srcset="" style="height: 300px; width: max-content;">
+        </div> <br>
+
+        <h2 id="classification">Classification</h2>
+        <div class="content">
+            <p><b>CISC: </b> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CISC, or Complex Instruction Set A
+                computer is an architecture in which instructions can execute multiple low-level operations such as
+                loading from memory, storing into memory, or performing an arithmetic operation, among others. It
+                contains several addressing nodes within a single instruction. CISC makes use of only a few
+                registers.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Intel 386, Intel 486.</p>
+            <p><b>RISC: </b> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RISC, or Reduced Instruction Set
+                Computer, is a computer architecture in which the instructions are simple and designed to be executed
+                quickly. Instructions are completed in a single clock cycle as a result of instruction optimisation and
+                pipelining. RISC uses multiple registers to avoid large memory interactions. It has a few addressing
+                nodes. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>IBM RS6000, MC88100.</p>
+            <p><b>EPIC: </b> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EPIC, or Explicitly Parallel
+                Instruction Computing, allows computers to execute instructions in parallel by using compilers. It
+                allows complex instructions to be executed without using higher clock frequencies. EPIC encodes its
+                instructions as 128-bit bundles. Each bundle consists of three instructions, each encoded in 41 bits,
+                and a 5-bit template field.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>IA-64 (Intel
+                Architecture-64).</p>
+            <br>
+        </div>
+
+        <h2 id="types">Generation of Processors</h2>
+        <div class="content">
+            <p><b>First Generation (4-Bit Microprocessors): </b>The Intel Corporation first introduced the
+                microprocessor in 1971-1972, calling it the Inte­l 4004. This first microprocessor could perform basic
+                arithmetic and logic operations. It also included a control unit that could fetch, decode, and execute
+                instructions.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Intel 4004.</p>
+            <p><b>Secon Generation (8-Bit Microprocessors): </b>The inte­l corporation first introduced the 8 bit
+                microprocessor in 1973 with the­ intel 8008. This was followed by an enhance­d model, the intel 8088.
+                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Intel 8085.</p>
+            <p><b>Third Generation (16-Bit Microprocessors): </b>The third generation introduced microprocessors that
+                could perform 16-bit operations. This generation, introduced in 1978, was represented by processors such
+                as the Intel 8086.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b> Intel 8086, Intel 80286.</p>
+            <p><b>Fourth Generation (32-Bit Microprocessors): </b>Several different companies introduced the 32-bit
+                microprocessors, but the most popular one is the Intel 80386. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Intel Pentium.</p>
+            <p><b>Fifth Generation (64-Bit Microprocessors): </b>From 1995 to the present, we have seen the fifth
+                generation of microprocessors with 64-bit processors, such as Intel's Pentium Pro, which allows multiple
+                CPUs to run simultaneously.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Intel Itanium.</p>
+            <br>
+        </div>
+
+
+        <h2 id="Application">Application</h2>
+        <div class="content">
+            <p><b>Microprocessors are used in a wide range of applications across various industries due to their
+                    powerful processing capabilities and versatility. Here are some common applications:</b> <br>
+                ⦿ <b>Personal Computers (PCs) - </b>The central processing unit (CPU) in desktop and laptop computers,
+                enabling complex computations, multitasking, and running operating systems and applications. <br>
+                ⦿ <b>Smartphones and Tablets - </b>The core of mobile devices, managing all functions including the
+                operating system, apps, and connectivity features like Wi-Fi, Bluetooth, and cellular networks. <br>
+                ⦿ <b>Embedded Systems- </b> Used in devices like digital cameras, GPS systems, and smart home devices,
+                providing control and processing power for specific tasks. <br>
+                ⦿ <b>Automotive Systems - </b> Engine control units (ECUs), infotainment systems, advanced
+                driver-assistance systems (ADAS), and other electronic control units in modern vehicles.<br>
+                ⦿ <b>Industrial Automation - </b>Controllers in machinery, robotic systems, programmable logic
+                controllers (PLCs), and factory automation systems, enhancing precision and efficiency.<br>
+                ⦿ <b>Consumer Electronics - </b>Televisions, gaming consoles, home appliances, and other electronic
+                gadgets, enabling advanced features and user interfaces. <br>
+                ⦿ <b>Medical Devices - </b> Used in medical imaging equipment, portable diagnostic devices, patient
+                monitoring systems, and automated medical instruments.<br>
+                ⦿ <b>Telecommunication Systems - </b>Network routers, switches, base stations, and other communication
+                infrastructure, handling data processing and signal management. <br>
+                ⦿ <b>Aerospace and Defense - </b>Avionics systems, navigation systems, military communication equipment,
+                and control systems for drones and other unmanned vehicles. <br>
+                ⦿ <b>Financial Systems - </b> ATMs, point-of-sale (POS) systems, automated trading systems, and other
+                financial transaction processing devices. <br>
+                <br>
+        </div>
+
+        <h2 id="real">Real life application</h2>
+        <div class="content">
+            <p>
+                <b>Intel Core i7</b> High-performance computing in desktops and laptops, gaming, video editing, and
+                professional software applications.<br>
+                <b>AMD Ryzen 9</b> Advanced gaming systems, content creation workstations, 3D rendering, and
+                virtualization tasks.<br>
+                <b>Apple M1</b> Apple's Mac computers, providing integrated performance for computing, graphics, and
+                machine learning tasks.<br>
+                <b>ARM Cortex-A53</b> Smartphones, tablets, embedded systems, and IoT devices, balancing performance and
+                power efficiency. <br>
+                <b>Qualcomm Snapdragon 888</b> High-end smartphones, enabling fast processing speeds, advanced graphics,
+                and 5G connectivity.<br>
+                <b>IBM POWER9</b> Data centers, supercomputers, enterprise servers, providing high-performance computing
+                for large-scale applications. <br>
+                <b>AMD EPYC</b> Data centers and servers, handling high-demand workloads, virtualization, and
+                large-scale cloud computing.<br>
+                <b>Intel Atom</b> Low-power applications such as netbooks, tablets, embedded systems, and IoT devices.
+                <br>
+                <b>Texas Instruments OMAP</b> Mobile devices, automotive infotainment systems, and multimedia
+                applications. <br>
+                <b>NXP i.MX 8</b> Automotive infotainment systems, industrial control, medical devices, and advanced HMI
+                (Human Machine Interface) applications.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="Refrences">Refrences</h2>
+        <div class="content">
+            <p> <a href="https://download.intel.com/newsroom/kits/40thanniversary/pdfs/What_is_a_Microprocessor.pdf"
+                    target="_blank">https://download.intel.com/newsroom/kits/40thanniversary/pdfs/What_is_a_Microprocessor.pdf</a>
+                <br>
+                <a href="https://www.geeksforgeeks.org/introduction-of-microprocessor/"
+                    target="_blank">https://www.geeksforgeeks.org/introduction-of-microprocessor/</a> <br>
+                <a href="https://www.tutorialspoint.com/microprocessor/microprocessor_overview.htm"
+                    target="_blank">https://www.tutorialspoint.com/microprocessor/microprocessor_overview.htm</a> <br>
+                <a href="https://www.britannica.com/technology/engineering"
+                    target="_blank">https://www.britannica.com/technology/engineering</a> <br>
+                <a href="https://www.javatpoint.com/microprocessor-introduction"
+                    target="_blank">https://www.javatpoint.com/microprocessor-introduction</a>
+            </p>
+        </div>
+    </div>
+    <br>
+    <footer style="background-color: 	#00415a;">
+        <br>
+        <div class="row" style="background-color: #00415a; text-align: center; color: antiquewhite;">
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color: aquamarine;">Subscribe to Newsletter & Contact Form</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Join our community by subscribing to our newsletter for updates on the latest posts and projects.
+                    Use the form below to also ask questions, share suggestions, or discuss collaboration ideas. We
+                    value your input and look forward to hearing from you!</h5>
+                <a href="https://forms.gle/iiEWeRxvrBU62ee67"> <button class="subscribe-btn">Get Updates & Share Your
+                        Thoughts</button></a>
+
+            </div>
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color:aquamarine ;"> About Me</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Hi, I'm Gokul Seetharaman, an electrical engineer currently pursuing my master's in Robotics and
+                    Autonomous Systems at Aston University. My interests AI, machine learning, robotics, large
+                    language models, and various fields of electrical and electronics engineering. This blog serves as
+                    my digital journal, where I document my educational journey, research explorations, and hands-on
+                    experiences in these exciting domains.</h5>
+            </div>
+        </div>
+        </div><br>
+        <h6 style="text-align: center; color: white; background-color: #00415a;"><a
+                href="https://gokulseetharaman.netlify.app/" target="_blank"
+                style="color: white; background-color: #00415a;">ABOUT</a> | <a
+                href="https://linkedin.com/in/gokul-seetharaman-16a328223" target="_blank"
+                style="color: white; background-color: #00415a;">LINKEDIN</a></h6><br>
+        <h5 style="text-align: center; background-color: #00415a; color: #fff;">THANKYOU FOR VISITING</h5>
+        <h6 style="text-align: center; background-color: #00415a;">© Gokul Seetharaman</h6>
+    </footer>
+</body>
+
+</html>

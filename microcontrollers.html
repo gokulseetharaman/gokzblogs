@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GokzBlogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Assets/DOT.png" type="image/x-icon">
+</head>
+
+<body style="background-color:whitesmoke;">
+    <a href="index.html">
+        <h1 id="intro" style="background-color: whitesmoke;"><span
+                style="font-family: Sedgwick Ave Display, cursive; color: #5db1ea; font-size:40px;">Gokz</span>BLOGS</h1>
+    </a>
+    <br>
+    <div id="blog">
+        <h1 style="text-align: center;"><u>Microcontrollers</u></h1>
+        <h6>5 Mins read <span style="float: right;">19/06/2024</span> </h6>
+        <hr>
+        <h2 id="blogtopic">Table of content</h2>
+        <div class="content">
+            <h5>
+                <a href="#Introduction" style="color: #5db1ea;">Introduction</a> <br>
+                <a href="#Block" style="color: #5db1ea;">Block Diagram</a> <br>
+                <a href="#types" style="color: #5db1ea;">Types</a> <br>
+                <a href="#Application" style="color: #5db1ea;">Application</a> <br>
+                <a href="#real" style="color: #5db1ea;">Real Life Application</a> <br>
+                <a href="#Refrences" style="color: #5db1ea;">Refrences</a>
+            </h5> <br>
+        </div>
+        <h2 id="Introduction">Introduction</h2>
+        <div class="content">
+            <p>A microcontroller (MCU) is a small computing device built on a single integrated circuit that is used to
+                control certain operations in electronic systems. A typical microcontroller consists of a CPU, memory,
+                and input/output (I/O) peripherals on a single chip.
+                <br>The microcontroller's other components are under the direction and execution of instructions by the
+                processor core. While input/output peripherals are used to interface with the outside world, memory is
+                used to store data and programme code.
+                <br>Microcontrollers are widely used in embedded systems, including industrial control systems, medical
+                devices, automotive systems, and home appliances. Additionally, they find application in consumer
+                electronics products like digital cameras, audio players, and gaming systems.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="Block">Block Diagram</h2>
+        <div class="content">
+            <img src="Assets/Microcontroller Block.png" alt="" srcset="" style="height: 300px; width: max-content;">
+        </div> <br>
+
+        <h2 id="types">Types</h2>
+        <div class="content">
+            <p><b>8-Bit Microcontroller: </b>These are the most basic microcontrollers, which are commonly used in
+                simple applications like toys, small appliances, and remote controls. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Intel 8008(First 8-bit Microcontroller).</p>
+            <p><b>16-Bit Microcontroller: </b>These are more advanced than 8-bit microcontrollers and can handle more
+                complex tasks. They are widely used in medical devices, automotive systems, and industrial control
+                systems.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b> Intel 8096, Microchip PIC2x.</p>
+            <p><b>32-Bit Microcontroller: </b>These are the most powerful and feature-rich microcontrollers, capable of
+                handling large amounts of data and performing high-speed processing. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>ESP 32, LPC1768.</p>
+            <p><b>ARM Microcontroller: </b>An ARM microcontroller is a compact, power-efficient processor based on the
+                ARM architecture, widely used in embedded systems for its versatility and performance. It supports a
+                wide range of applications, from consumer electronics to industrial automation, with features like
+                advanced processing capabilities and low power consumption. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b> ARM Cortex-M4.</p>
+            <p><b>PLC Microcontroller: </b>A Programmable Logic Controller (PLC) is an industrial digital computer
+                designed for the control and automation of manufacturing processes, such as assembly lines and robotic
+                devices <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Siemens S7-1200, MITSUBISHI FX PLC
+                Ethernet Module.</p>
+            <p><b>AVR Microcontroller: </b>AVR microcontrollers are a type of microcontroller designed by Atmel. They
+                are commonly used in embedded systems and are known for their simplicity and ease of use. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>ATmega328P, ATmega2560. </p>
+            <br>
+        </div>
+
+        <h2 id="Application">Application</h2>
+        <div class="content">
+            <p><b>MCUs are widely used in various applications such as:</b> <br>
+                &nbsp;&nbsp;&nbsp;⦿ Home automation systems (smart lighting, temperature control, and security systems)
+                <br>
+                &nbsp;&nbsp;&nbsp;⦿ Automotive (engine management, transmission control, and electric power
+                steering)<br>
+                &nbsp;&nbsp;&nbsp;⦿ Medical devices (glucose meters, blood pressure monitors, and heart rate
+                monitors)<br>
+                &nbsp;&nbsp;&nbsp;⦿ Consumer electronics (remote controls, game consoles, and smart wearables)<br>
+                &nbsp;&nbsp;&nbsp;⦿ Industrial control (robotics, process control, and instrumentation)<br>
+                &nbsp;&nbsp;&nbsp;⦿ Internet of Things (smart homes, smart cities, and smart agriculture) <br>
+                &nbsp;&nbsp;&nbsp;⦿ Aerospace and Defense (avionics, navigation, and communication systems), etc. </p>
+            <br>
+        </div>
+
+        <h2 id="real">Real life application</h2>
+        <div class="content">
+            <p><b>STM32F407</b> Industrial automation, motor control, medical devices, consumer electronics, <br>
+                <b>ATSAMD21G18</b> Wearable technology, home automation, IoT devices, portable medical devices, <br>
+                <b>ESP32</b> Smart home devices, wireless sensors, IoT applications, wearable electronics, <br>
+                <b>PIC32MX795F512L</b> Automotive systems, industrial control, communication devices, consumer
+                electronics, <br>
+                <b>LPC1768</b> Robotics, data acquisition systems, embedded networking applications, home automation,
+                <br>
+                <b>Kinetis K64 (MK64FN1M0VLL12)</b> Motor control, smart energy applications, healthcare devices,
+                industrial automation, <br>
+                <b>TM4C123GH6PM</b> Industrial control systems, robotics, consumer electronics, medical devices, <br>
+                <b>EFM32GG380F1024</b> Low-power sensor nodes, smart metering, health and fitness devices, IoT
+                applications, <br>
+                <b>SAM3X8E</b> 3D printers, industrial automation, automotive electronics, consumer electronics, <br>
+                <b>nRF52840</b> Bluetooth Low Energy (BLE) devices, wearables, smart home devices, wireless sensors.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="Refrences">Refrences</h2>
+        <div class="content">
+            <p> <a href="https://www.techtarget.com/iotagenda/definition/microcontroller"
+                    target="_blank">https://www.techtarget.com/iotagenda/definition/microcontroller</a> <br>
+                <a href="https://www.shiksha.com/online-courses/articles/microcontroller-types-functions-uses-challenges-and-solutions-blogId-155711#6"
+                    target="_blank">https://www.shiksha.com/online-courses/articles/microcontroller-types-functions-uses-challenges-and-solutions-blogId-155711#6</a>
+                <br>
+                <a href="https://www.geeksforgeeks.org/microcontroller-and-its-types/"
+                    target="_blank">https://www.geeksforgeeks.org/microcontroller-and-its-types/</a> <br>
+                <a href="https://www.tutorialspoint.com/microprocessor/microcontrollers_overview.htm"
+                    target="_blank">https://www.tutorialspoint.com/microprocessor/microcontrollers_overview.htm</a>
+            </p>
+        </div>
+    </div>
+    <br>
+    <footer style="background-color: 	#00415a;">
+        <br>
+        <div class="row" style="background-color: #00415a; text-align: center; color: antiquewhite;">
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color: aquamarine;">Subscribe to Newsletter & Contact Form</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Join our community by subscribing to our newsletter for updates on the latest posts and projects.
+                    Use the form below to also ask questions, share suggestions, or discuss collaboration ideas. We
+                    value your input and look forward to hearing from you!</h5>
+                <a href="https://forms.gle/iiEWeRxvrBU62ee67"> <button class="subscribe-btn">Get Updates & Share Your
+                        Thoughts</button></a>
+
+            </div>
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color:aquamarine ;"> About Me</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Hi, I'm Gokul Seetharaman, an electrical engineer currently pursuing my master's in Robotics and
+                    Autonomous Systems at Aston University. My interests AI, machine learning, robotics, large
+                    language models, and various fields of electrical and electronics engineering. This blog serves as
+                    my digital journal, where I document my educational journey, research explorations, and hands-on
+                    experiences in these exciting domains.</h5>
+            </div>
+        </div>
+        </div><br>
+        <h6 style="text-align: center; color: white; background-color: #00415a;"><a
+                href="https://gokulseetharaman.netlify.app/" target="_blank"
+                style="color: white; background-color: #00415a;">ABOUT</a> | <a
+                href="https://linkedin.com/in/gokul-seetharaman-16a328223" target="_blank"
+                style="color: white; background-color: #00415a;">LINKEDIN</a></h6><br>
+        <h5 style="text-align: center; background-color: #00415a; color: #fff;">THANKYOU FOR VISITING</h5>
+        <h6 style="text-align: center; background-color: #00415a;">© Gokul Seetharaman</h6>
+    </footer>
+</body>
+
+</html>

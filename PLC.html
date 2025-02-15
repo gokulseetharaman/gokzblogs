@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GokzBlogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Assets/DOT.png" type="image/x-icon">
+</head>
+
+<body style="background-color: whitesmoke">
+    <a href="index.html">
+        <h1 id="intro" style="background-color: whitesmoke;"><span
+                style="font-family: Sedgwick Ave Display, cursive; color: #5db1ea; font-size:40px;">Gokz</span>BLOGS</h1>
+    </a>
+    <br>
+    <div id="blog">
+        <h1 style="text-align: center;"><u>Programmable Logic Controllers</u></h1>
+        <h6>5 Mins read <span style="float: right;">19/06/2024</span> </h6>
+        <hr>
+        <h2 id="blogtopic">Table of content</h2>
+        <div class="content">
+            <h5>
+                <a href="#Introduction" style="color: #5db1ea;">Introduction</a> <br>
+                <a href="#Block" style="color: #5db1ea;">Block Diagram</a> <br>
+                <a href="#Function" style="color: #5db1ea;">Function of PLC</a> <br>
+                <a href="#types" style="color: #5db1ea;">Types</a> <br>
+                <a href="#Language" style="color: #5db1ea;">Programming Languages for PLC</a> <br>
+                <a href="#Advantages" style="color: #5db1ea;">Advantages</a> <br>
+                <a href="#Disadvantages" style="color: #5db1ea;">Disadvantages</a> <br>
+                <a href="#Application" style="color: #5db1ea;">Application</a> <br>
+                <a href="#Refrences" style="color: #5db1ea;">Refrences</a>
+            </h5> <br>
+        </div>
+
+        <h2 id="Introduction">Introduction</h2>
+        <div class="content">
+            <p>A PROGRAMMABLE LOGIC CONTROLLER (PLC) is an industrial computer control system that constantly monitors
+                the status of input devices and makes decisions based on a custom programme to control the status of
+                output devices.
+                <br>PLCs have revolutionized the way industrial processes are controlled. They have enabled the
+                automation of complex tasks, improved efficiency and reduced costs.
+                <br>PLCs remain an essential component of many industrial control systems. In fact, they remain the most
+                widely used industrial control technology worldwide. The ability to work with PLCs is required for many
+                different professions, ranging from engineers designing the system to electrical technicians who
+                maintain it.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="Block">Block Diagram</h2>
+        <div class="content">
+            <img src="Assets/PLC Block.png" alt="" srcset="" style="height: 300px; width: 100%;">
+        </div> <br>
+
+
+        <h2 id="Function">Function of PLC</h2>
+        <div class="content">
+            <p>The PLC receives data from connected sensors or input devices, processes it, and generates outputs based
+                on predefined parameters. <br>
+                A PLC, depending on its inputs and outputs, can monitor and record run-time data such as machine
+                productivity or operating temperature, start and stop processes automatically, generate alarms if a
+                machine malfunctions, and so on. Programmable Logic Controllers are a versatile and reliable control
+                solution that can be applied to almost any application.</p>
+            <br>
+        </div>
+
+        <h2 id="types">Types</h2>
+        <div class="content">
+            <p><b>Compact PLC: </b>Compact PLCs are small in size and usually have a limited number of I/O points. They
+                are designed with space as a key consideration, and the control requirements are simple. Compact PLCs
+                are commonly used in small-scale control applications where the number of devices to control and monitor
+                is limited. Simple machines, stand-alone equipment, and simple processes are all
+                examples.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Siemens SIMATIC S7-1200.</p>
+            <p><b>Modular PLC: </b>Modular PLCs use a modular architecture in which the CPU, power supply, and
+                input-output modules are all separate components. This modular design allows for greater flexibility in
+                system configuration, making it easier to expand or modify the system in response to changing
+                requirements. Modular PLCs are ideal for applications that will grow or change over time. Industries
+                with changing control requirements, such as manufacturing plants that may add production
+                lines.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b> Allen-Bradley ControlLogix.</p>
+            <p><b>Rack PLC: </b>This is a type of High end PLC which is specially designed for complex and demanding
+                application. It has maximum number of I/O points also Rack-mount PLCs are modular and can easily
+                expanded by adding additional modules to the
+                rack.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b>Schneider Electric Modicon Quantum.</p>
+            <br>
+        </div>
+
+        <h2 id="Language">Programming Languages for PLC</h2>
+        <div class="content">
+            <p><b>As specified by <u>the International Electrotechnical Commission (IEC) 61131</u>, five programming
+                    languages are used to code PLCs:</b></p>
+            <p><b>Ladder Logic: </b>Ladder logic is also known as ladder diagrams. It is essentially a graphical
+                representation of a relay logic circuit, consisting of two vertical parallel lines joined by horizontal
+                lines. These lines are known as rails and rungs. The vertical line supplies power while also creating
+                logic.</p>
+            <p><b>Functional Block Diagram(FBD): </b>The Function Block Diagram (FBD) in PLC programming is a graphical
+                representation of control logic. It employs function blocks to depict operations such as comparisons or
+                timers, with inputs and outputs represented by lines. Contacts and coils represent input conditions and
+                output actions. Branches and junctions regulate logic flow.</p>
+            <p><b>Structured Text: </b>A high-level textual language that promotes structured programming. It has a
+                language structure (syntax) that closely resembles PASCAL and supports a wide range of standard
+                functions and operators.</p>
+            <p><b>Instruction List: </b>A low-level "assembler-like" language based on instructions found in many modern
+                PLCs.</p>
+            <p><b>Sequential Function chart: </b>A method for programming complex control systems on a more structured
+                level. A SFC programme is an overview of the control system, with entire programme files serving as the
+                foundation. Each programme file is written in one of the other types of programming languages. The SFC
+                approach coordniates large, complex programming tasks into smaller, more manageable ones.</p>
+            <br>
+        </div>
+
+        <h2 id="Advantages">Advantages</h2>
+        <div class="content">
+            <p> <b>Flexibility - </b> Easily programmable to perform different functions. <br>
+                <b>Reliability - </b> High durability and reliability in harsh industrial environments. <br>
+                <b>Scalability - </b> Modular design allows for easy expansion and upgrades. <br>
+                <b>Real-Time Operation - </b> Capable of real-time processing for control applications. <br>
+                <b>Ease of Troubleshooting - </b> Diagnostic tools help identify issues quickly. <br>
+                <b>Integration - </b> Can be integrated with other industrial systems like SCADA and HMI. <br>
+                <b>Maintenance - </b> Low maintenance due to solid-state components and built-in diagnostics. <br>
+                <b>Data Handling - </b> Capable of handling complex data processing and communication. <br>
+                <b>Energy Efficiency - </b> Energy-efficient designs reduce operational costs. <br>
+                <b>User-Friendly Programming - </b> Programming languages like Ladder Logic are intuitive for engineers.
+                <br>
+            </p>
+        </div>
+
+        <h2 id="Disadvantages">Disadvantages</h2>
+        <div class="content">
+            <p><b>Initial Cost - </b> High initial investment compared to relay-based systems. <br>
+                <b>Complexity - </b> Can be complex to program and configure for beginners. <br>
+                <b>Limited Processing Power - </b> May not be suitable for extremely high-speed or computationally
+                intensive applications. <br>
+                <b>Vendor Lock-In - </b> Proprietary software and hardware can lead to vendor lock-in. <br>
+                <b>Learning Curve - </b> Requires specialized training and knowledge for programming and maintenance.
+                <br>
+                <b>Size Constraints - </b> May be too bulky for very small or space-constrained applications. <br>
+                <b>Limited Memory - </b> Memory limitations may restrict the complexity of programs. <br>
+                <b>Environmental Sensitivity - </b> Although rugged, extreme environmental conditions can still affect
+                performance. <br>
+                <b>Response Time - </b> Slower response time compared to some real-time computing systems. <br>
+                <b>Upgrading Issues - </b> Upgrading or replacing PLCs can be costly and time-consuming.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="Application">Application</h2>
+        <div class="content">
+            <p><b>PLCs are widely used in various applications such as:</b> <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Manufacturing Automation - </b> Controlling assembly lines, robotic arms, and
+                machinery in factories. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Process Control - </b> Managing processes in industries like chemical,
+                pharmaceutical, and food processing. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Building Automation - </b> HVAC control, lighting systems, and security systems in
+                buildings. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Energy Management - </b> Controlling power distribution and renewable energy
+                systems. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Water Treatment - </b> Monitoring and controlling water treatment plants and
+                sewage systems. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Automotive Industry - </b> Automation of manufacturing processes and quality
+                control in automotive plants. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Material Handling - </b> Conveyor systems, sorting machines, and automated storage
+                and retrieval systems. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Oil and Gas - </b> Monitoring and controlling drilling operations, pipelines, and
+                refineries. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Telecommunications - </b> Managing and controlling telecommunications
+                infrastructure and networks. <br>
+                &nbsp;&nbsp;&nbsp;⦿<b>Transportation - </b> Traffic light control systems, railway signaling, and
+                airport baggage handling systems. <br>
+                <br>
+        </div>
+
+        <h2 id="Refrences">Refrences</h2>
+        <div class="content">
+            <p>
+                <a href="https://www.geeksforgeeks.org/what-is-a-programmable-logic-controllers-plc/"
+                    target="_blank">https://www.geeksforgeeks.org/what-is-a-programmable-logic-controllers-plc/</a> <br>
+                <a href="https://www.polycase.com/techtalk/electronics-tips/what-is-a-programmable-logic-controller.html"
+                    target="_blank">https://www.polycase.com/techtalk/electronics-tips/what-is-a-programmable-logic-controller.html</a>
+                <br>
+                <a href="https://www.techtarget.com/whatis/definition/programmed-logic-controller-PLC"
+                    target="_blank">https://www.techtarget.com/whatis/definition/programmed-logic-controller-PLC</a>
+                <br>
+                <a href="https://industrial.omron.eu/en/products/programmable-logic-controllers"
+                    target="_blank">https://industrial.omron.eu/en/products/programmable-logic-controllers</a> <br>
+                <a href="https://www.unitronicsplc.com/what-is-plc-programmable-logic-controller/"
+                    target="_blank">https://www.unitronicsplc.com/what-is-plc-programmable-logic-controller/ </a> <br>
+                <a href="https://www.amci.com/industrial-automation-resources/plc-automation-tutorials/what-plc/"
+                    target="_blank">https://www.amci.com/industrial-automation-resources/plc-automation-tutorials/what-plc/</a>
+                <br>
+                <a href="https://www.empoweredautomation.com/what-are-the-3-types-of-plc"
+                    target="_blank">https://www.empoweredautomation.com/what-are-the-3-types-of-plc</a>
+
+            </p>
+        </div>
+    </div>
+    <br>
+    <footer style="background-color: 	#00415a;">
+        <br>
+        <div class="row" style="background-color: #00415a; text-align: center; color: antiquewhite;">
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color: aquamarine;">Subscribe to Newsletter & Contact Form</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Join our community by subscribing to our newsletter for updates on the latest posts and projects.
+                    Use the form below to also ask questions, share suggestions, or discuss collaboration ideas. We
+                    value your input and look forward to hearing from you!</h5>
+                <a href="https://forms.gle/iiEWeRxvrBU62ee67"> <button class="subscribe-btn">Get Updates & Share Your
+                        Thoughts</button></a>
+
+            </div>
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color:aquamarine ;"> About Me</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Hi, I'm Gokul Seetharaman, an electrical engineer currently pursuing my master's in Robotics and
+                    Autonomous Systems at Aston University. My interests AI, machine learning, robotics, large
+                    language models, and various fields of electrical and electronics engineering. This blog serves as
+                    my digital journal, where I document my educational journey, research explorations, and hands-on
+                    experiences in these exciting domains.</h5>
+            </div>
+        </div>
+        </div><br>
+        <h6 style="text-align: center; color: white; background-color: #00415a;"><a
+                href="https://gokulseetharaman.netlify.app/" target="_blank"
+                style="color: white; background-color: #00415a;">ABOUT</a> | <a
+                href="https://linkedin.com/in/gokul-seetharaman-16a328223" target="_blank"
+                style="color: white; background-color: #00415a;">LINKEDIN</a></h6><br>
+        <h5 style="text-align: center; background-color: #00415a; color: #fff;">THANKYOU FOR VISITING</h5>
+        <h6 style="text-align: center; background-color: #00415a;">© Gokul Seetharaman</h6>
+    </footer>
+</body>
+
+</html>
