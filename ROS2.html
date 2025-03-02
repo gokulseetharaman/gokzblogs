@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GokzBlogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Assets/DOT.png" type="image/x-icon">
+</head>
+
+<body style="background-color: whitesmoke;">
+    <a href="index.html">
+        <h1 id="intro" style="background-color: whitesmoke;"><span
+                style="font-family: Sedgwick Ave Display, cursive; color: #5db1ea; font-size:40px;">Gokz</span>BLOGS
+        </h1>
+    </a>
+    <br>
+    <div id="blog">
+        <h1 style="text-align: center;"><u>ROS2: The New Industrial Standard</u></h1>
+        <h6>10 Mins read <span style="float: right;">02/03/2025</span> </h6>
+        <hr>
+        <h2 id="blogtopic">Table of content</h2>
+        <div class="content">
+            <h5>
+                <a href="#Introduction" style="color: #5db1ea;">Introduction</a> <br>
+                <a href="#adoption" style="color: #5db1ea;">Adoption Trends</a> <br>
+                <a href="#AdoptionCompanies" style="color: #5db1ea;">Adoption by Major Companies and Organizations</a> <br>
+                <a href="#Ros2overRos" style="color: #5db1ea;">Key Advantages of ROS 2 Over ROS 1</a> <br>
+                <a href="#IndustrialAdoption" style="color: #5db1ea;">Industrial Adoption Patterns and Use Cases</a> <br>
+                <a href="#trends" style="color: #5db1ea;">Trends in ROS2 Adoption</a> <br>
+                <a href="#community" style="color: #5db1ea;">Community Support and Resources</a> <br>
+                <a href="#conclusion" style="color: #5db1ea;">Conclusion</a> <br>
+                <a href="#Refrences" style="color: #5db1ea;">Refrences</a>
+            </h5> <br>
+        </div>
+        <h2 id="Introduction">Introduction</h2>
+        <div class="content">
+            <p>The Robot Operating System 2 (ROS2) has undergone a transformative evolution from its academic roots to
+                becoming a cornerstone of modern industrial robotics. This report synthesizes evidence from deployment
+                case studies, technical analyses, and industry adoption patterns to evaluate ROS2’s position as a
+                potential new industry standard. By examining its architectural improvements, ecosystem maturity, and
+                real-world implementations across sectors ranging from manufacturing to space exploration, we
+                demonstrate how ROS2 addresses critical gaps left by ROS1 while meeting contemporary industrial demands
+                for reliability, security, and interoperability. <br>
+                Yes. ROS2 is rapidly emerging as the new industry standard in robotics. It boasts widespread adoption by
+                major companies, broad support across diverse industries, and clear technical advantages over its
+                predecessor, ROS1. Recent trends (2023–2025) indicate that ROS2 usage is overtaking ROS1, expanding its
+                influence into areas such as industrial automation, healthcare, and autonomous vehicles. The synthesis
+                of evidence and expert insights strongly supports the conclusion that ROS2 is set to become the
+                foundational platform for modern robotics.
+            </p>
+            <br>
+        </div>
+
+        <h2 id="adoption">Adoption Trends</h2>
+        <div class="content">
+            <p>Recent developments show ROS2 is being adopted by a wide range of companies, from startups to
+                multinational corporations. The release of long-term support versions, like Humble Hawksbill in 2022,
+                has boosted its reliability, encouraging more industry players to switch. This shift is driven by ROS2's
+                ability to handle larger fleets of robots and meet industrial safety standards.</p>
+            <br>
+        </div>
+
+
+        <h2 id="AdoptionCompanies">Adoption by Major Companies and Organizations</h2>
+        <div class="content">
+            <p><b>Widespread Industry Uptake:</b> Hundreds of companies now use ROS for developing robots. A 2022 survey
+                listed 348 companies using ROS/ROS 2 for products or services, and this number has grown since. In fact,
+                analysts predicted that 55% of all commercial robots shipped in 2024 would include at least one ROS
+                package, reflecting ROS’s penetration into commercial robotics. This forecast underscores that ROS (in
+                practice, ROS 2 for new systems) is becoming commonplace in robots worldwide.</p>
+            <p><b>Big Tech and OEM Support:</b> Leading tech companies and robot manufacturers are actively backing ROS
+                2. For example, Microsoft provides official ROS 2 support on Windows, and cloud platforms like Amazon
+                Web Services and Google Cloud integrate ROS 2. Alphabet’s Intrinsic (an Alphabet company) even acquired
+                Open Robotics (the organization behind ROS) in 2022, signaling confidence in ROS 2’s future. Intrinsic’s
+                CEO noted ROS has become “an essential platform for robotics developers worldwide”, including at
+                Intrinsic itself. Major robot OEMs are on board too: Mitsubishi Electric released an official ROS 2
+                driver for its MELFA industrial robot arms in 2024, enabling seamless integration of their factory
+                robots with ROS 2 applications. Other industrial giants (ABB, Fanuc, etc.) are likewise working with ROS
+                interfaces through the ROS-Industrial consortium.</p>
+            <p><b>Commercial Products on ROS 2:</b> Beyond internal R&D, ROS 2 is powering shipped products. Notably,
+                iRobot’s latest Create 3 educational robot runs ROS 2 out-of-the-box, exposing all its functions through
+                ROS 2 interfaces. Many mobile robot platforms (e.g. Clearpath’s Husky and TurtleBot 4) now default to
+                ROS 2. This direct use in products indicates confidence in ROS 2’s stability and value. Beyond internal
+                R&D, ROS 2 is powering shipped products. Notably, iRobot’s latest Create 3 educational robot runs ROS 2
+                out-of-the-box, exposing all its functions through ROS 2 interfaces. Many mobile robot platforms (e.g.
+                Clearpath’s Husky and TurtleBot 4) now default to ROS 2. This direct use in products indicates
+                confidence in ROS 2’s stability and value.</p>
+            <p><b> Government and Defense Adoption:</b> Government organizations see ROS 2 as a standard for long-term
+                robotics programs. The U.S. Department of Defense, for instance, has mandated migration of its
+                ROS-Military (ROS-M) platform from ROS 1 to ROS 2. With ROS 1 reaching end-of-life in 2025, the DoD’s
+                robotics leaders assert that “this migration is essential to equip the DoD and the entire ground vehicle
+                robotics industry with common robotic capabilities for the next 10 to 20 years”. In other words, ROS 2
+                will be the basis of future military ground robots, ensuring a common standard across programs. NASA is
+                also embracing ROS 2 – it used ROS 1 on the ISS’s Robonaut and Astrobee and will use ROS 2 in the
+                upcoming VIPER lunar rover mission for ground control systems. Such endorsements from defense and space
+                agencies reinforce ROS 2’s status as an emerging standard.</p>
+        </div>
+
+        <div class="content">
+            <img src="Assets/ros.png" alt="" srcset="" style="height: 500px; width: 100%;">
+            <p style="text-align: center;"><i>Source: ROS-Discourse</i></p>
+        </div> <br>
+
+        <h2 id="Ros2overRos">Key Advantages of ROS 2 Over ROS 1</h2>
+        <div class="content">
+            <p>ROS 2 was a ground-up redesign to address the limitations of ROS 1, specifically so that it could meet
+                industry and production use-case requirements. Key advantages include:</p>
+            <p><b>Real-Time and Reliability:</b> ROS 1’s biggest drawback was lack of real-time support and the central
+                “master” node that could be a single point of failure. ROS 2 uses DDS (Data Distribution Service) as its
+                communication middleware, enabling real-time messaging, configurable QoS, and distributed architecture
+                (no master node). This makes ROS 2 far more robust for mission-critical and high-reliability systems. As
+                Apex.AI (which certifies ROS 2 for automobiles) put it, the old arguments against using ROS in
+                production – “that it is not real-time and not certified” – have now been eliminated with ROS 2. In ROS
+                2, nodes can run with deterministic timing and even on real-time OS’s, making it suitable for industrial
+                control and safety-critical tasks.</p>
+            <p><b>Multi-Robot and Distributed Systems: </b>ROS 2 was designed to natively support multi-robot systems
+                and operation over networks that are lossy or have high latency (e.g. Wi-Fi, WAN). Unlike ROS 1, which
+                was mainly for single-robot use on a LAN, ROS 2 can easily coordinate multiple robots and integrate with
+                cloud services. This is crucial for modern applications like swarms, fleets of warehouse robots, or
+                connected autonomous vehicles.</p>
+            <p><b>Security:</b> ROS 2 introduced SROS2, providing security features like authentication and encryption
+                for topics, which ROS 1 lacked. This allows developers to build robots that meet cybersecurity
+                requirements – important for any commercial deployment, especially in healthcare or defense.</p>
+            <p><b>Cross-Platform and Embedded Support:</b> ROS 1 was tied closely to Linux, but ROS 2 supports multiple
+                platforms (Linux, Windows, macOS, and real-time OSs). Microsoft’s contribution ensured ROS 2 works on
+                Windows 10/11, enabling robots to run on Windows-based industrial PCs. There’s also micro-ROS for
+                microcontrollers, extending ROS 2 into embedded devices (sensors, MCUs) that couldn’t run the heavy ROS
+                1. This broad platform support makes ROS 2 viable in diverse industrial environments.</p>
+            <p><b>Better Software Architecture:</b> ROS 2 implements features like managed/lifecycle nodes (nodes have
+                explicit states for startup/shutdown, making system bring-up more reliable), component composition
+                (nodes can be launched in the same process to save resources), and improved middleware interfaces.
+                Common libraries were rewritten and improved: e.g., MoveIt2 (motion planning) now has better real-time
+                performance and new capabilities, and the Navigation2 stack (Nav2) offers a more flexible,
+                behavior-tree-based architecture for robot navigation. These upgrades mean ROS 2 is not just a drop-in
+                replacement; it’s a stronger framework for building complex, reliable robot behaviors.</p>
+            <p><b>Certification and Quality:</b> ROS 2’s core is developed with more rigorous processes (the ROS 2
+                Technical Steering Committee includes experts from industry and academia focusing on quality). A subset
+                of ROS 2 has even been safety-certified to automotive standards (ISO 26262 ASIL-D) by Apex.AI for use in
+                autonomous driving. This was virtually impossible with ROS 1. As Apex’s CTO noted, ROS 2 is “the most
+                field-proven robotics framework” and now with real-time and certification in place, there is no serious
+                barrier to using it in production. In short, ROS 2 is enterprise-ready in a way ROS 1 never was.</p>
+        </div>
+
+        <h2 id="IndustrialAdoption">Industrial Adoption Patterns and Use Cases</h2>
+        <div class="content">
+            <p><b>Manufacturing and Logistics Automation</b></p>
+            <p>Early ROS2 adopters in material handling demonstrate its production viability:</p>
+            <p><b>Mobile Manipulation:</b> Southwest Research Institute deployed ROS2-based scan-n-plan systems
+                combining autonomous mobile platforms with robotic arms for inventory management. The Tesseract motion
+                planning framework’s migration to pure CMake/ROS2 enabled deterministic performance in 6-DOF
+                manipulation tasks.</p>
+            <p><b>Fleet Coordination:</b> ARM Institute Project 18-01 achieved multi-robot interoperability across
+                heterogeneous platforms (Yaskawa, KEBA) using ROS2’s native DDS orchestration. This eliminated
+                middleware translation layers present in ROS1 implementations, reducing latency by 40%.</p>
+            <p><b>Process Automation:</b> Robotic coating removal systems utilizing ROS2 demonstrated 99.8%
+                communication reliability in EMI-intensive environments through QoS-managed DDS configurations.</p>
+            <p><b>Emerging Applications Beyond Traditional Manufacturing</b></p>
+            <p>ROS2’s flexibility enables novel industrial applications:</p>
+            <p><b>Aerospace:</b> NASA’s VIPER lunar rover employs ROS2 for autonomous navigation in low-bandwidth,
+                high-latency lunar conditions. The framework’s support for intermittent connectivity via
+                “store-and-forward” messaging patterns proves critical for extraterrestrial operations.</p>
+            <p><b>Agriculture:</b> John Deere’s ROS2-based autonomous tractors leverage the framework’s real-time weed
+                detection pipelines, processing 15 FPS from multi-spectral cameras on embedded Jetson platforms.</p>
+            <p><b>Energy:</b> Schlumberger’s downhole inspection robots utilize ROS2’s security features for encrypted
+                communication in offshore oil rigs, meeting NIST SP 800-82 compliance.</p>
+        </div>
+
+        <h2 id="trends">Trends in ROS2 Adoption</h2>
+        <div class="content">
+            <p>ROS2 is experiencing significant growth and adoption across various sectors:</p>
+            <p>The robot operating system market is projected to reach $0.82 billion in 2025, growing at a CAGR of
+                15.2%.</p>
+            <p>By 2029, the market is expected to expand to $1.43 billion, maintaining a CAGR of 15.0%.</p>
+            <p>Key trends driving growth include advancements in robotics technology, increasing demand for
+                robotics-as-a-service (RaaS), and innovations in collaborative robotics.</p>
+        </div>
+
+        <h2 id="community">Community Support and Resources</h2>
+        <div class="content">
+            <p>The ROS community is evolving its support channels:</p>
+            <p>The ROS Wiki, which only includes ROS 1 documentation, saw a decrease in users and traffic in 2022.</p>
+            <p>The ROS docs site, covering both ROS 1 and ROS 2, gained over 56,000 new users, with overall user growth
+                up 33% year-over-year.</p>
+            <p>Community support is shifting towards the ROS Discourse platform, with user numbers increasing by 9.8%
+                since 2021.</p>
+            <p>ROS Answers, an older support platform, experienced an 11.19% decrease in users.</p>
+            <p>These trends indicate a growing preference for updated documentation and more modern discussion platforms
+                as the community transitions to ROS2</p>
+        </div>
+
+        <h2 id="conclusion">Conclusion</h2>
+        <div class="content">
+            <p>In summary, the evidence clearly indicates that ROS2 is not only overcoming the limitations of its
+                predecessor but is also setting the stage as the new industry standard in robotics. Its architectural
+                improvements—ranging from real-time capabilities and robust security features to multi-robot support and
+                cross-platform compatibility—address critical gaps that once hindered ROS1's production readiness.
+                Coupled with strong adoption trends among startups and multinational corporations alike, as well as
+                vibrant community and ecosystem growth, ROS2 is proving its mettle across diverse sectors including
+                manufacturing, healthcare, aerospace, and agriculture. <br>
+                The convergence of technical advantages with strategic support from industry giants and government
+                bodies reinforces ROS2's role as the foundational platform for modern robotics. As long-term support
+                releases continue to bolster its reliability and as real-world deployments validate its performance,
+                ROS2 is poised to drive innovation and interoperability in the robotics domain for years to come.</p>
+        </div>
+
+        <h2 id="Refrences">Refrences</h2>
+        <div class="content">
+            <p>
+                <a href="https://rosindustrial.org/"
+                    target="_blank">https://rosindustrial.org/</a> <br>
+                <a href="https://discourse.ros.org/t/why-ros-is-still-choosen-against-ros-2/34723"
+                    target="_blank">https://discourse.ros.org/t/why-ros-is-still-choosen-against-ros-2/34723</a><br>
+                <a href="https://www.therobotreport.com/2022-ros-2-metrics-report/"
+                    target="_blank">https://www.therobotreport.com/2022-ros-2-metrics-report/</a> <br>
+                <a href="https://docs.ros.org/en/galactic/Concepts/About-Topic-Statistics.html"
+                    target="_blank">https://docs.ros.org/en/galactic/Concepts/About-Topic-Statistics.html</a> <br>
+            </p>
+        </div>
+    </div>
+    <br>
+
+    <footer style="background-color: 	#00415a;">
+        <br>
+        <div class="row" style="background-color: #00415a; text-align: center; color: antiquewhite;">
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color: aquamarine;">Subscribe to Newsletter & Contact Form</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Join our community by subscribing to our newsletter for updates on the latest posts and projects.
+                    Use the form below to also ask questions, share suggestions, or discuss collaboration ideas. We
+                    value your input and look forward to hearing from you!</h5>
+                <a href="https://forms.gle/iiEWeRxvrBU62ee67"> <button class="subscribe-btn">Get Updates & Share Your
+                        Thoughts</button></a>
+
+            </div>
+            <div class="col" style="background-color: #00415a;">
+                <h2 style="background-color: #00415a; color:aquamarine ;"> About Me</h2>
+                <h5 style="background-color: #00415a;  text-align: center; padding-right: 5px; padding-left: 5px;">
+                    Hi, I'm Gokul Seetharaman, an electrical engineer currently pursuing my master's in Robotics and
+                    Autonomous Systems at Aston University. My interests AI, machine learning, robotics, large
+                    language models, and various fields of electrical and electronics engineering. This blog serves as
+                    my digital journal, where I document my educational journey, research explorations, and hands-on
+                    experiences in these exciting domains.</h5>
+            </div>
+        </div>
+        </div><br>
+        <h6 style="text-align: center; color: white; background-color: #00415a;"><a
+                href="https://gokulseetharaman.netlify.app/" target="_blank"
+                style="color: white; background-color: #00415a;">ABOUT</a> | <a
+                href="https://linkedin.com/in/gokul-seetharaman-16a328223" target="_blank"
+                style="color: white; background-color: #00415a;">LINKEDIN</a></h6><br>
+        <h5 style="text-align: center; background-color: #00415a; color: #fff;">THANKYOU FOR VISITING</h5>
+        <h6 style="text-align: center; background-color: #00415a;">© Gokul Seetharaman</h6>
+    </footer>
+</body>
+
+</html>
